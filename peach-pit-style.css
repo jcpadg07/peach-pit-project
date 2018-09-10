@@ -1,0 +1,20 @@
+ /* CSS Style for The Peach Pit  */
+
+body {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 72px;
+    color: blue;
+
+}
+
+header {
+    background-color: green;
+}
+
+p {
+    font-size: 20px;
+}

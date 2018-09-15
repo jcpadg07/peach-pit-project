@@ -1,5 +1,10 @@
  /* CSS Style for The Peach Pit  */
 
+ * {
+    box-sizing: border-box;
+ }
+
+
 body {
     text-align: center;
 
@@ -7,14 +12,69 @@ body {
 
 h1 {
     font-size: 72px;
-    color: blue;
+    color: black;
 
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 100px;
 }
 
 header {
-    background-color: green;
+    width: 100%;
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
+    font-family: Verdana;
 }
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+a {
+    font-size: 2em;
+}
+
+
+/* Class Selectors */
+
+.main-header {
+    padding-top: 170px;
+    height: 850px;
+    background: linear-gradient(#ffa949, transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                #ffa949 url('../img/mountains.jpg') no-repeat center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .title {
+    color: purple;
+    font-size: 4em; /* 26px/16px */
+    letter-spacing: .065em;
+    font-weight: 200;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+  }
+  
+  .intro {
+    font-size: 3em; /* 20px/16px */
+    line-height: 1.6;  
+  }
+
+  .main-p {
+    font-family: Arial;
+  }
+
+  .main-title {
+    color: blue;
+    border: 2px dotted black;
+  }

@@ -8,6 +8,7 @@
     box-sizing: border-box;
  }
 
+ /* I added these below html and body elements for my sticky footer using a grid */
 html {
     height: 100%;
 }
@@ -49,9 +50,6 @@ a {
     font-size: 30px;
 }
 
-ul {
-    list-style: none;
-}
 
 
 /* ======================
@@ -82,7 +80,7 @@ ul {
     margin-top: 5px;
   }
 
-
+/* The grid continues */
   .main-footer {
     background: gray; 
     padding: 2em 0;
@@ -123,31 +121,37 @@ ul {
 .main-title {
     font-size: 1.25em;
     margin: 0;
-}
-  .main-title,
-  .main-nav li {
 	text-align: center;
 	background: #fff;
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
 
-.main-title a,
-.main-nav a {
-	padding: 10px 15px;
-	text-align: center;
-	display: block;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
 }
 
-.main-nav a {
-    font-size: .95em;
-    color: blue;
-    text-transform: uppercase;
+li {
+    float: left;
 }
 
-.main-nav a:hover {
-    color: #093a58;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
 
 
   /* ======================
@@ -181,3 +185,8 @@ ul {
     }
 }
 
+@media screen and (max-width: 600px) {
+    li {
+     float: none;
+    }
+}

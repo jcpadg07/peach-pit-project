@@ -20,15 +20,6 @@ body {
     grid-template-rows: 1fr auto;
 }
 
-
-h2 {
-    font-size: 60px;
-}
-
-h3 {
-    font-size: 100px;
-}
-
 p {
     font-size: 25px;
     font-family: Verdana;

@@ -67,9 +67,6 @@ a {
     margin-bottom: 30px;
 }
 
-  .main-nav {
-    margin-top: 5px;
-  }
 
 /* The grid continues */
   .main-footer {
@@ -125,6 +122,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: orange;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
@@ -143,6 +143,16 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+/* Setting some spacing before the anchor link navigates to the section */
+#about::before {
+    display: block;
+    content: " ";
+    margin-top: -65px;
+    height: 65px;
+    visibility: hidden;
+    pointer-events: none;
+  }
 
 
 

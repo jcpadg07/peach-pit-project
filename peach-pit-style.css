@@ -227,6 +227,20 @@ button[type=submit]:hover {
      float: none;
      line-height: 1.5em;
     }
+
+    #about::before {
+    display: block;
+    content: " ";
+    margin-top: -190px;
+    height: 190px;
+    visibility: hidden;
+    pointer-events: none;
+    }
+
+    body { 
+    padding-top: 125px; 
+    }
+
 }
     
 @media (min-width: 600px) {
@@ -236,3 +250,4 @@ button[type=submit]:hover {
     margin: 0 auto;
     }
 }
+

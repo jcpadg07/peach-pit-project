@@ -26,14 +26,10 @@ p {
 }
 
 img {
-    /* max-width: 100%;
-    margin-bottom: 20px;
-    border-radius: 10px; */
     display: block;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto;
     width: 50%;
+
 }
 
 a {
@@ -86,7 +82,7 @@ a {
 
   .title {
     color: purple;
-    font-size: 4em; /* 26px/16px */
+    font-size: 4em; 
     letter-spacing: .065em;
     font-weight: 200;
     border-bottom: 2px solid black;
@@ -94,7 +90,7 @@ a {
   }
   
   .intro {
-    font-size: 2em; /* 20px/16px */
+    font-size: 2em; 
     line-height: 1.6;  
   }
 

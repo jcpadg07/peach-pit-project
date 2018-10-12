@@ -6,6 +6,7 @@
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="peach-pit-style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
     <div>
@@ -26,7 +27,7 @@
             <blockquote class="main-quote">"This is the place where imagination can be set free.  If you can think it in your mind, then you can hold it in your hand."</blockquote>
         </div>
 
-        <img src="https://fillmurray.com/300/200">
+            <img src="https://fillmurray.com/300/200">
 
         <article id="about" class="container">
             <h3>About the Author</h3>
@@ -42,7 +43,11 @@
                 would again put my hands to the keys and start typing furiously.  Of course,  I still didn't know how to type so it was 
                 jibberish or I wouldn't have a program open at all.  I would just pretend to dismantle the robot army.  
             </section>
+
+            <img src="https://placeimg.com/300/200/tech">
+
             <blockquote class="main-quote">"Our designs are not limited by the bounds of possibility.  They are created from pure inspiration given by the Universe that is limitless."</blockquote>
+            
             <section>
                 <h4>Growing Up</h4>
                 My fascination didn't stop when I got older.  I enjoy technology and the use of it to simplify our world.
@@ -57,8 +62,10 @@
             </section>
         </article><br>
 
+            <img src="https://placeimg.com/300/200/nature">        
+
     <div id="ask" class="form form-container">
-        <form action="#" method="post">
+        <form>
             
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="user_name">
@@ -72,12 +79,11 @@
                 <textarea id="msg" name="user_message"></textarea>
             
             
-                <button type="submit">Send your message</button>
+                <button onclick="inputTest(event)" type="submit" id="submit">Send your message</button>
             
         </form>
     </div><br>
 
-        
 
         <footer class="main-footer">
             <a href="peach-pit-project.html">Back to the Landing Page</a><br>

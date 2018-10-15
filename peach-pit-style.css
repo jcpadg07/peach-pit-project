@@ -21,6 +21,10 @@ body {
     font-family: 'Neuton', serif;
 }
 
+section {
+    font-size: 25px;
+}
+
 p {
     font-size: 25px;
     font-family: Verdana;

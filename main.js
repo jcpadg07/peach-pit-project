@@ -1,7 +1,8 @@
 $('#submit').click(function() {
     const myName = $('#name').val();
     const myEmail = $('#mail').val();
-    alert(myName + '\n' + myEmail);
+    const myMsg = $('#msg').val();
+    alert(myName + '\n' + myEmail + '\n' + myMsg);
   });
 
 const inputTest = (event) => {

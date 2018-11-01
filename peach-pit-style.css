@@ -155,6 +155,15 @@ li a:hover {
     pointer-events: none;
   }
 
+  #art::before {
+      display: block;
+      content: " ";
+      margin-top: -65px;
+      height: 65px;
+      visibility: hidden;
+      pointer-events: none;
+  }
+
   /* ======================
     Form Styling  
 ========================*/

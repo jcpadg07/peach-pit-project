@@ -10,6 +10,15 @@ const inputTest = (event) => {
     console.log("click");
 }
 
+/* This is for the hamburger menu */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 
 
 

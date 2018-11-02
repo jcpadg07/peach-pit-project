@@ -164,6 +164,8 @@ li a:hover {
       pointer-events: none;
   }
 
+
+
   /* ======================
     Form Styling  
 ========================*/
@@ -247,12 +249,22 @@ button[type=submit]:hover {
     pointer-events: none;
     }
 
+    #art::before {
+        display: block;
+        content: " ";
+        margin-top: -190px;
+        height: 190px;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
     body { 
     padding-top: 125px; 
     }
-
 }
     
+/* Remember to change the width for the medium screen break points */
+
 @media (min-width: 600px) {
     .form-container {
     width: 45%;
@@ -260,4 +272,3 @@ button[type=submit]:hover {
     margin: 0 auto;
     }
 }
-

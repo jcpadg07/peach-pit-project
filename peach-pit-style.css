@@ -85,6 +85,12 @@ a {
   
 /* -------Page Elements------- */
 
+  .logo {
+      font-size: 3em;
+      font-weight: 200;
+      text-align: center;
+  }
+
   .title {
     color: purple;
     font-size: 4em; 
@@ -162,6 +168,15 @@ li a:hover {
       height: 65px;
       visibility: hidden;
       pointer-events: none;
+  }
+
+  #ask::before {
+    display: block;
+    content: " ";
+    margin-top: -65px;
+    height: 65px;
+    visibility: hidden;
+    pointer-events: none;
   }
 
 
@@ -246,16 +261,26 @@ button[type=submit]:hover {
     margin-top: -190px;
     height: 190px;
     visibility: hidden;
+    3.
     pointer-events: none;
     }
 
     #art::before {
-        display: block;
-        content: " ";
-        margin-top: -190px;
-        height: 190px;
-        visibility: hidden;
-        pointer-events: none;
+    display: block;
+    content: " ";
+    margin-top: -190px;
+    height: 190px;
+    visibility: hidden;
+    pointer-events: none;
+    }
+
+    #ask::before {
+    display: block;
+    content: " ";
+    margin-top: -190px;
+    height: 190px;
+    visibility: hidden;
+    pointer-events: none;
     }
 
     body { 
@@ -267,7 +292,15 @@ button[type=submit]:hover {
 
 @media (min-width: 600px) {
     .form-container {
-    width: 45%;
+    width: 75%;
+    max-width: 1000px;
+    margin: 0 auto;
+    }
+}
+
+@media (min-width: 900px) {
+    .form-container {
+    width: 65%;
     max-width: 1000px;
     margin: 0 auto;
     }

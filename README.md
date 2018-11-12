@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # jcpadg07.github.io
 =======
 # peach-pit-project
@@ -14,4 +13,3 @@ language after I complete my current front end course.  For now, it captures the
 submitted.
 
 Please feel free to leave comments and send suggestions for improvement!
->>>>>>> 808ae885ef050669fdc04e6aec053b8bc4b626cf

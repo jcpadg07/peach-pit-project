@@ -1,6 +1,5 @@
-# jcpadg07.github.io
-=======
-# peach-pit-project
+Peach Pit Project
+
 My website showcase
 
 This is a design studio website I created to double as a resume page and a starter business page.  It exhibits my elementary skills I am

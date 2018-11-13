@@ -55,7 +55,7 @@ a {
     padding-top: 20px;
     height: 100%;
     background: linear-gradient(#ff5349, transparent 50%),
-                url('./IMG/') repeat center;
+                url('../IMG/peach_mecca.jpg') repeat center;
     background-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }

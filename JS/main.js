@@ -2,7 +2,7 @@ $('#submit').click(function() {
     const myName = $('#name').val();
     const myEmail = $('#mail').val();
     const myMsg = $('#msg').val();
-    alert(myName + '\n' + myEmail + '\n' + myMsg);
+    alert('This information will be captured and saved in a future database:' + '\n' + myName + '\n' + myEmail + '\n' + myMsg);
   });
 
 const inputTest = (event) => {
